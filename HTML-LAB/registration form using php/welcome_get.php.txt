@@ -1,0 +1,20 @@
+<html>
+<body>
+<center>
+Customer Details.<br>
+<?php
+$Name = $_POST['name'];
+$City = $_POST['city'];
+$Pincode = $_POST['pincode'];
+$Email = $_POST['email'];
+$PhoneNumbe = $_POST['mphone'];
+echo "Name :".$Name."<br>";
+echo "CITY :".$City."<br>";
+echo "PINCODE:".$Pincode."<br>";
+echo "EMAIL :".$Email."<br>";
+echo "PHONE :".$PhoneNumbe."<br>";
+echo " All field required";
+?>
+</center>
+</body>
+</html>
