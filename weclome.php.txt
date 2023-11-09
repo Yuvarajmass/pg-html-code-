@@ -1,0 +1,12 @@
+<html>
+<body>
+<form action="welcome.php" method="post">
+Name: <input type="text" name="name" required><br>
+City:<input type="text" name="city" required><br>
+Pincode:<input type="integer" name="pincode" maxlength="6" id="pin" pattern="\d{6}" required><br>
+E-mail: <input type="text" name="email" pattern=".+@gmail.com"><br>
+Phone Number:<input type="integer" name="mphone" maxlength="10" id="phone" pattern="\d{10}" required><br>
+<input type="submit">
+</form>
+</body>
+</html>
